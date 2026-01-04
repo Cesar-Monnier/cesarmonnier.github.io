@@ -243,6 +243,14 @@ h2 {
   .carousel__slide img { width: 100%; height: auto; }
 }
 
+/* Center the 'voyagescolaire' image in projects */
+#projects > img[src*="voyagescolaire"] {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Align icons and text in personal info */
 #personal-info ul {
   padding-left: 0;
